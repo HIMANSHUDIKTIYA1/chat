@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config(); // Load environment variables from .env file
 
 const PORT = process.env.PORT || 3000; // Use PORT from environment or default to 3000
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173"; // Use CLIENT_ORIGIN from environment
+const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "https://hd-chat.netlify.app/"; // Use CLIENT_ORIGIN from environment
 
 const app = express();
 const server = createServer(app);
